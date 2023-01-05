@@ -1,0 +1,46 @@
+site_name: ATIdocs
+#site_url: https://example.com/
+nav:
+    - Home: index.md
+    - Software: Software_tuto.md
+    - Helpdesk: helpdesk.md
+    - About: about.md
+    - Contact: contact.md
+    - Readme: readme.md
+    - FAQ: faq.md
+#theme: readthedocs
+theme:
+
+  # add navigation bar
+  features:
+    - navigation.tabs
+
+  # add diff logo
+  icon:
+    logo: material/library-shelves
+  
+  name: material
+  palette:
+    primary: black
+  palette: 
+
+
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+
+
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+#    primary: black
+  font:
+    text: Roboto Mono
+#  logo: assets/logo.jpg
