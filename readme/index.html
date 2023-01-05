@@ -1,0 +1,609 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../about/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+    
+    
+      
+        <title>Readme - ATIdocs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.f56500e0.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto Mono";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#example-project-usage" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ATIdocs" class="md-header__button md-logo" aria-label="ATIdocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.5 9V1.5h-3V9h-3V1.5h-3V9h-3V1.5H4.65V9H3v1.5h18V9h-1.5m0 4.5h-3V21h-3v-7.5h-3V21h-3v-7.5H4.65V21H3v1.5h18V21h-1.5v-7.5Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ATIdocs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Readme
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../Software_tuto/" class="md-tabs__link">
+      Software
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../helpdesk/" class="md-tabs__link">
+      Helpdesk
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../about/" class="md-tabs__link">
+      About
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../contact.md" class="md-tabs__link">
+      Contact
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Readme
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../faq.md" class="md-tabs__link">
+      FAQ
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ATIdocs" class="md-nav__button md-logo" aria-label="ATIdocs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.5 9V1.5h-3V9h-3V1.5h-3V9h-3V1.5H4.65V9H3v1.5h18V9h-1.5m0 4.5h-3V21h-3v-7.5h-3V21h-3v-7.5H4.65V21H3v1.5h18V21h-1.5v-7.5Z"/></svg>
+
+    </a>
+    ATIdocs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Software_tuto/" class="md-nav__link">
+        Software
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helpdesk/" class="md-nav__link">
+        Helpdesk
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contact.md" class="md-nav__link">
+        Contact
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Readme
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Readme
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-project-usage" class="md-nav__link">
+    Example Project usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-example-in-your-own-project" class="md-nav__link">
+    Using the example in your own project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-the-docs-tutorial" class="md-nav__link">
+    Read the Docs tutorial
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq.md" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#example-project-usage" class="md-nav__link">
+    Example Project usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-example-in-your-own-project" class="md-nav__link">
+    Using the example in your own project
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#read-the-docs-tutorial" class="md-nav__link">
+    Read the Docs tutorial
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Readme</h1>
+
+<p>===============================================</p>
+<p><a href="https://example-mkdocs-basic.readthedocs.io/en/latest/?badge=latest"><img alt="Documentation Status" src="https://readthedocs.org/projects/example-mkdocs-basic/badge/?version=latest" /></a></p>
+<p>This example shows a basic MkDocs project with Read the Docs. You're encouraged to view it to get inspiration and copy &amp; paste from the files in the source code. If you are using Read the Docs for the first time, have a look at the official <a href="https://docs.readthedocs.io/en/stable/tutorial/index.html">Read the Docs Tutorial</a>.</p>
+<p>📚 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/">docs/</a><br>
+A basic MkDocs project lives in <code>docs/</code>, it was generated using MkDocs defaults. All the <code>*.md</code> make up sections in the documentation.</p>
+<p>⚙️ <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/.readthedocs.yaml">.readthedocs.yaml</a><br>
+Read the Docs Build configuration is stored in <code>.readthedocs.yaml</code>.</p>
+<p>⚙️ <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/mkdocs.yaml">mkdocs.yml</a><br>
+A basic <a href="https://www.mkdocs.org/user-guide/configuration/">MkDocs configuration</a> is stored here, including a few extensions for MkDocs and Markdown. Add your own configurations here, such as extensions and themes. Remember that many extensions and themes require additional Python packages to be installed.</p>
+<p>📍 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/requirements.txt">docs/requirements.txt</a> and <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/requirements.in">docs/requirements.in</a><br>
+Python dependencies are <a href="https://docs.readthedocs.io/en/latest/guides/reproducible-builds.html">pinned</a> (uses <a href="https://pip-tools.readthedocs.io/en/latest/">pip-tools</a>) here. Make sure to add your Python dependencies to <code>requirements.txt</code> or if you choose <a href="https://pip-tools.readthedocs.io/en/latest/">pip-tools</a>, edit <code>docs/requirements.in</code> and remember to run to run <code>pip-compile docs/requirements.in</code>.</p>
+<p>💡 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/api.md">docs/api.md</a><br>
+We add our example Python module <code>lumache</code> in order to auto-generate an API reference. To do this, we use the <code>:::</code> syntax, you can read more in the <a href="https://mkdocstrings.github.io/">mkdocstrings documentation</a>.</p>
+<p>💡 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/docs/usage.md">docs/usage.md</a><br>
+We also include some direct links to a function from the API reference, as well as embedding documentation for the example function <code>lumache.get_random_recipe</code>. This functionality is also from the <a href="https://mkdocstrings.github.io/python/">mkdocstrings</a> extension.</p>
+<p>💡 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/lumache.py">lumache.py</a><br>
+API docs are generated for this example Python module - they use <em>docstrings</em> directly in the documentation, notice how this shows up in the rendered documentation. We use the <a href="https://pythonhosted.org/an_example_pypi_project/sphinx.html#function-definitions">Sphinx convention</a> for docstrings, however you are free to edit <code>mkdocs.yml</code> to change this option to <code>google</code> or <code>numpy</code>.</p>
+<p>🔢 Git tags versioning<br>
+We use a basic versioning mechanism by adding a git tag for every release of the example project. All releases and their version numbers are visible on
+<a href="https://example-mkdocs-basic.readthedocs.io/en/latest/">example-mkdocs-basic.readthedocs.io</a>.</p>
+<p>📜 <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/blob/main/README.rst">README.rst</a><br>
+Contents of this <code>README.md</code> are visible on Github and included on <a href="https://example-mkdocs-basic.readthedocs.io/en/latest/">the documentation index page</a> (Don\'t Repeat Yourself).</p>
+<p>⁉️ Questions / comments<br>
+If you have questions related to this example, feel free to can ask them as a Github issue <a href="https://github.com/readthedocs-examples/example-mkdocs-basic/issues">here</a>.</p>
+<h2 id="example-project-usage">Example Project usage</h2>
+<p>This project has a standard MkDocs layout which is built by Read the Docs almost the same way that you would build it locally (on your own laptop!).</p>
+<p>You can build and view this documentation project locally - we recommend that you activate <a href="https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment">a local Python virtual environment first</a>:</p>
+<pre><code class="language-console"># Install required Python dependencies (MkDocs etc.)
+pip install -r docs/requirements.txt
+
+# Run the mkdocs development server
+mkdocs serve
+</code></pre>
+<h2 id="using-the-example-in-your-own-project">Using the example in your own project</h2>
+<p>If you are new to Read the Docs, you may want to refer to the <a href="https://docs.readthedocs.io/">Read the Docs User documentation</a>.</p>
+<p>If you are copying this code in order to get started with your documentation, you need to:</p>
+<ol>
+<li>place your <code>docs/</code> folder alongside your Python project. If you are starting a new project, you can adapt the <code>pyproject.toml</code> example configuration.</li>
+<li>use your existing project repository or create a new repository on Github, GitLab, Bitbucket or another host supported by Read the Docs.</li>
+<li>copy <code>mkdocs.yml</code>, <code>.readthedocs.yaml</code> and the <code>docs/</code> folder into your project.</li>
+<li>customize all the files, replacing example contents.</li>
+<li>Rebuild the documenation locally to see that it works.</li>
+<li><em>Finally</em>, register your project on Read the Docs, see <a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html">Importing Your Documentation</a>.</li>
+</ol>
+<h2 id="read-the-docs-tutorial">Read the Docs tutorial</h2>
+<p>To get started with Read the Docs, you may also refer to the <a href="https://docs.readthedocs.io/en/stable/tutorial/">Read the Docs tutorial</a>. It provides a full walk-through of building an example project similar to the one in this repository.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      
+    
+  </body>
+</html>
