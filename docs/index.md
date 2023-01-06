@@ -1,6 +1,7 @@
 # Welcome to ATIDocs
 
 ![Image title](img\logo\logo.jpg)
+![Image logoP8](img\logo\logop81.png)
 
 This document aims to build a reference documentation of the infrastructure for the ATI department.
 

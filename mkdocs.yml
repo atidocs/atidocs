@@ -2,13 +2,18 @@ site_name: ATIdocs
 #site_url: https://example.com/
 nav:
     - Home: index.md
-    - Software: Software_tuto.md
+    - Setting-up Software: software.md
     - Helpdesk: helpdesk.md
     - About: about.md
     - Contact: contact.md
-    - Readme: readme.md
+    #- Readme: readme.md
     - FAQ: faq.md
 #theme: readthedocs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
 theme:
 
   # add navigation bar
