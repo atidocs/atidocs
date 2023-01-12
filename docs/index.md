@@ -7,7 +7,7 @@ This document aims to build a reference documentation of the infrastructure for 
 
 ## Project layout
 
-* `Helpdesk` - Access to HELPDESK via GLPI (Make a request / report an incident).
-* `Software` - Tutorial for software installation.
-* `Contact me` - Contact me.
-* `FAQ` - Frequently Asked Questions.
+* [`Helpdesk`](helpdesk.md) - Access to HELPDESK via GLPI (Make a request / report an incident).
+* [`Software`](software.md) - Tutorial for software installation.
+* [`Contact`](contact.md) - Contact me.
+* [`FAQ`](faq.md) - Frequently Asked Questions.
