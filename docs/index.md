@@ -6,7 +6,7 @@
 This document aims to build a reference documentation of the infrastructure for the ATI department.
 
 !!! tip
-    ```website update 16/01/2023;```
+    ```website updated 24/01/2023;```
 
 ## Project layout
 
