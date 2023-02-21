@@ -8,7 +8,7 @@
 
 **Table of Contents:**
 
-1. [Adobe CC](#Adobe_CC) 
+* [Adobe CC](#Adobe_CC) 
 
 ---
 

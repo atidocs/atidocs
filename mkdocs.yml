@@ -2,9 +2,12 @@ site_name: ATIdocs
 #site_url: https://example.com/
 nav:
     - Home: index.md
-    - Setting-up Software: software.md
+    #- Setting-up Software: software.md
     - Houdini: houdini.md
-    - Adobe_CC: adobecc.md
+    - Adobe Creative Cloud : adobecc.md
+    - Adobe CS6 : adobecs6.md
+    - The Foundry (Nuke) : Nuke.md
+    - Golaem : golaem.md
     - Helpdesk: helpdesk.md
     - About: about.md
     - Contact: contact.md

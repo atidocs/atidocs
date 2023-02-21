@@ -7,7 +7,7 @@
 
 **Table of Contents:**
 
-1. [Houdini](#houdini) 
+* [Houdini](#houdini) 
 
 ---
 

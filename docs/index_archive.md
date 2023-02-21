@@ -10,8 +10,9 @@ This document aims to build a reference documentation of the infrastructure for 
 
 ## Project layout
 
+
+* [`Software`](software.md) - Tutorial for software (adobe cs6, The Foundary, Golaem) installation;
 * [`Houdini`](houdini.md) - Tutorial for Houdini installation;
-* [`Adobe CS6`](adobecs6.md) - Tutorial for adobe cs6;
 * [`Adobe Creative Cloud` (ver 2023)](adobecc.md) - Tutorial for Adobe CC installation;
 * [`The Foundry (Nuke)`](Nuke.md) - Tutorial for The Foundry (Nuke) installation;
 * [`Golaem`](golaem.md) - Tutorial for Golaem;
